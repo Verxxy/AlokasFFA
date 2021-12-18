@@ -1,0 +1,14 @@
+﻿{
+  "Gathering": "Kerätään tulli tietoja",
+  "License": "Tarvitset gta:an pelataksesi",
+  "Steam": "Kirjaudu steamiin",
+  "Banned": "Sinut on bannitty tältä serveriltä",
+  "Whitelist": "Sinua ei ole whitelistattu",
+  "Queue": "Olet tullijonossa",
+  "PriorityQueue": "Olet jonossa",
+  "Canceled": "Canceled from queue",
+  "Error": "ERROR",
+  "Timeout": "Exceeded server owners maximum loading time threshold",
+  "QueueCount": "[Tullijono: {0}]",
+  "Symbols": "No symbols or consecutive spaces are allowed in your name"
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Latausruutu</title>
+
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <meta content="" name="keywords">
+    <meta content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" name="viewport">
+    <link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/style-dark.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/css.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/colors/yellow-2.css" media="screen" rel="stylesheet" title="yellow-2" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7CDosis:200,300,400,500,600,700,800%7CFredericka+the+Great:300,400,700%7CMontserrat:400,700" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+    <div class="film-grain"></div>
+
+    <div id="preloader">
+      <div id="preloader-status">
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <div
+    class="hero-fullscreen hero-bg">
+      <div class="slide-YT hero-fullscreen">
+        <div class="slide bg-img-YT"></div>
+        <div id="videoContainment"></div><a class="player" data-property="{videoURL:'https://youtu.be/SefG0gfxK6s', mute:true, showControls:false, quality:'default', opacity:1, containment:'#videoContainment', optimizeDisplay:true, loop:true, startAt:51, autoPlay:true, showYTLogo:false, addRaster:false, realfullscreen:true}" id="bgndVideo"></a>
+      </div>
+      <div class="preload-content"></div>
+    </div>
+
+      <div class="line-left left-position"></div>
+
+      <div class="transparent-borders OFF"></div>
+      <div class="center-container-home">
+
+        <div class="center-block-home">
+
+          <div class="upper-content">
+
+            <div class="container sections">
+
+              <div class="row">
+
+                <div class="fin-wrapper introduction">
+
+                  <div class="fin-slides-wrapper">
+                    <ul class="fin-slides">
+                      <li>
+                        <h3>
+                          TAPAKKO KAIKKI?!?!
+                        </h3>
+                      </li>
+                      <li>
+                        <h3>
+                          LUOTIRP?!?!?
+                        </h3>
+                      </li>
+                      <li>
+                        <h3>
+                          OSAATKO EES AMPUU?!?!
+                        </h3>
+                      </li>
+                      <li>
+                        <h3>
+                          PÄÄTÄ?!?!?
+                        </h3>
+                      </li>
+                    </ul>
+                  </div>               
+                  <div class="fin-heading">
+                    <h1 class="fin-heading">
+                    AlokkaanFFA?!?! 
+                    </h1>
+                  </div>
+                  <div class="fin-subheading">
+                    &middot; TERVETULOA &middot;                            
+                      <audio id='muzica' volume='0.08' autoplay controls>
+                        <source src="audio.mp3" type="audio/mpeg">
+                      </audio>
+                      <script>
+                        var play = true
+                        var audio = document.getElementById("muzica");
+                        audio.volume = 0.08;
+
+                        function onKeyDown(event) {
+                            switch (event.keyCode) {
+                                case 32:
+                                    if (play) {
+                                        audio.pause();
+                                        play = false;
+                                    } else {
+                                        audio.play();
+                                        play = true;
+                                    }
+                                    break;
+                            }
+                            return false;
+                        }
+                        window.addEventListener("keydown", onKeyDown, false);
+                      </script>             
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="js/plugins.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
+</html>
